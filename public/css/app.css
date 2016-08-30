@@ -1,0 +1,168 @@
+html {
+  background-color: #F8F2E2; }
+
+header {
+  width: 100%;
+  background-color: #2F79C3; }
+  header h1 {
+    width: 230px;
+    box-sizing: border-box;
+    color: #F8F2E2;
+    font-size: 20px;
+    padding: 7px;
+    background-color: #22609e;
+    text-align: center;
+    margin-bottom: 0; }
+    @media (max-width: 768px) {
+      header h1 {
+        width: 100%; } }
+
+aside {
+  background-color: #374047;
+  position: absolute;
+  top: 56px;
+  left: 0;
+  width: 230px;
+  bottom: 0;
+  box-sizing: border-box; }
+  aside .avatar-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-sizing: border-box; }
+    aside .avatar-box a {
+      width: 100%; }
+    aside .avatar-box a:hover {
+      text-decoration: none !important; }
+    aside .avatar-box .avatar-img {
+      width: 60px;
+      display: inline-block;
+      height: 60px;
+      background-color: #EB4549;
+      background-size: cover;
+      border-radius: 50%; }
+    aside .avatar-box .avatar-caption {
+      display: inline-block;
+      flex: 1 1 0;
+      padding-left: 10px;
+      box-sizing: border-box; }
+      aside .avatar-box .avatar-caption > * {
+        color: #F8F2E2; }
+      aside .avatar-box .avatar-caption h3 {
+        margin-bottom: 0; }
+      aside .avatar-box .avatar-caption h4 {
+        margin: 0 !important;
+        font-size: 14px; }
+      aside .avatar-box .avatar-caption h5 {
+        margin: 0;
+        font-size: 12px;
+        display: flex;
+        align-items: center; }
+        aside .avatar-box .avatar-caption h5 span {
+          height: 5px;
+          width: 5px;
+          border-radius: 50%;
+          display: inline-block;
+          margin-right: 5px; }
+        aside .avatar-box .avatar-caption h5 span.online-status {
+          background-color: #3BC391; }
+        aside .avatar-box .avatar-caption h5 span.offline-status {
+          background-color: #EB4549; }
+  aside .uk-search {
+    width: 100%; }
+    aside .uk-search:before {
+      color: #F8F2E2; }
+    aside .uk-search .uk-search-field {
+      width: 100%;
+      color: #F8F2E2; }
+  aside .uk-panel {
+    padding-top: 5px;
+    background-color: #374047;
+    box-sizing: border-box; }
+    aside .uk-panel h3 {
+      color: #F8F2E2 !important;
+      margin-bottom: 5px; }
+    aside .uk-panel li.uk-active a {
+      background-color: #2F79C3;
+      color: white; }
+    aside .uk-panel li.uk-parent.uk-open > a, aside .uk-panel li a:focus {
+      background-color: #2F79C3 !important;
+      color: white !important; }
+    aside .uk-panel a {
+      color: #F8F2E2;
+      font-size: 16px;
+      transition: all .5s; }
+      aside .uk-panel a i {
+        margin-right: 5px; }
+      aside .uk-panel a:hover {
+        background-color: #2F79C3;
+        color: white; }
+
+main {
+  padding: 10px 10px 10px 240px; }
+  @media (max-width: 768px) {
+    main {
+      padding-left: 10px; } }
+  main .uk-accordion-title {
+    margin-bottom: 0 !important;
+    box-sizing: border-box;
+    border-top: 1px solid #F8F2E2;
+    border-bottom: 1px solid #F8F2E2; }
+  main .uk-accordion-content {
+    padding: 0; }
+  main .profile-accordion .uk-accordion-title {
+    background-color: #3BC391;
+    color: #F8F2E2;
+    text-align: center; }
+  main .profile-block {
+    background-color: #3BC391;
+    padding: 10px; }
+    main .profile-block .avatar-profile {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      main .profile-block .avatar-profile .img-avatar {
+        background-color: #EB4549;
+        width: 40%;
+        padding-bottom: 40%;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover; }
+    main .profile-block .title {
+      margin: 5px 0 0 0;
+      width: 100%;
+      color: #F8F2E2;
+      text-align: center;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 22px; }
+    main .profile-block .post-title {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #F8F2E2;
+      margin: 0;
+      text-align: center; }
+    main .profile-block .up-block ul {
+      margin-bottom: 0;
+      padding: 5px;
+      list-style: none; }
+      main .profile-block .up-block ul li {
+        width: 100%; }
+        main .profile-block .up-block ul li a {
+          padding: 4px;
+          display: block;
+          color: #F8F2E2;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          transition: all .5s; }
+          main .profile-block .up-block ul li a i {
+            margin-right: 5px; }
+          main .profile-block .up-block ul li a:hover {
+            background-color: #F8F2E2;
+            color: #3BC391;
+            padding-left: 10%; }
+  main .info-block {
+    box-sizing: border-box;
+    width: 100%; }
+
+/*# sourceMappingURL=app.css.map */
